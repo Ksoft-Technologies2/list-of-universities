@@ -1,0 +1,47 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#top-header{
+    display: flex;
+    gap: 2rem;
+    padding: 1rem;
+    background: #ccc;
+}
+.hambuger-menu > img{
+    height: 3vh;
+    cursor: pointer;
+}
+.search-input > img{
+    height: 3vh;
+}
+.name{
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.FirstText{
+    padding: 1rem;
+}
+.FirstText > h1{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contents{
+    padding: 1rem;
+}
+.contents > h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+tr > th{
+    width: 20%;
+}
+footer{
+    background: #ccc;
+    padding: 1rem;
+}
+footer > h5{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
